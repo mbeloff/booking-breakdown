@@ -1,0 +1,120 @@
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+@import "../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #c20606;
+}
+
+html {
+  font-size: .8rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: .9rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: .95rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+.navbar {
+  padding: 0 0 0 0;
+  font-weight: 600;
+}
+
+.anchor::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -72px; 
+  height: 72px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
+.navbar .navbar-toggler {
+  border-color: #b9a17e;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(185, 161, 126)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.hero-section {
+  margin-top: -56px;
+  height: 80vh;
+  min-height: 700px;
+  background-color: darkgray;
+  background-image: linear-gradient(-45deg, rgb(214, 27, 27), rgb(255, 153, 86));
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.navbar-brand {
+  font-family: 'Quicksand';
+  font-size: 1.5em;
+}
+
+.navbar .nav-link, 
+.navbar .navbar-brand, 
+.navbar .fab {
+  color: #ffffff;
+}
+
+.navbar .nav-link.active {
+  background-color: #c20606;
+}
+
+.vehicle {
+  font-family: Roboto
+}
+
+.vehicle ul i {
+  color: red;
+  font-size: 1.5em;
+  margin-right: .5em;
+}
+
+.vehicle ul li {
+  margin-bottom: .4em;
+  font-weight: 400;
+  font-size: 1.2em
+}
+
+.vehicle-img {
+  min-height: 200px;
+  max-height: 300px;
+  background-size: cover;
+}
+
+.vehicle-img-1 { 
+  background-image: url('../img/painted.png');  
+}
+
+.vehicle-img-2 {
+  background-image:url('../img/pc2.png');
+}
+
+.vehicle-img-3 {
+  background-image: url('../img/plain.png');
+}
+
+
