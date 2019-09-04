@@ -95,46 +95,46 @@ body {
   background-size: contain; }
 
 .van-off-img-1 {
-  background-image: url("https://www.wickedcampers.com.au/images/small-thumbs/iconic.jpg"); }
+  background-image: url("../img/ico2.png"); }
 
 .van-off-img-2 {
-  background-image: url("https://www.wickedcampers.com.au/images/small-thumbs/hi-top2.jpg"); }
+  background-image: url("../img/hi2.png"); }
 
 .van-non-img-1 {
-  background-image: url("https://www.wickedcampers.com.au/images/small-thumbs/pr-2.jpg"); }
+  background-image: url("../img/ico2.png"); }
 
 .van-non-img-2 {
-  background-image: url("https://www.wickedcampers.com.au/images/small-thumbs/zepp-3.jpg"); }
+  background-image: url("../img/zep.png"); }
 
 .van-plain-img-1 {
-  background-image: url("https://www.wickedcampers.com.au/images/small-thumbs/pr-2.jpg"); }
+  background-image: url("../img/prem2.png"); }
 
 .awd-budg-img-1 {
-  background-image: url("https://www.wickedcampers.com.au/images/small-thumbs/4wd-2.jpg"); }
+  background-image: url("../img/budg2.png"); }
 
 .awd-budg-img-2 {
-  background-image: url("https://www.wickedcampers.com.au/images/small-thumbs/awd-5.jpg"); }
+  background-image: url("../img/budg5.png"); }
 
 .awd-prem-img-1 {
-  background-image: url("https://www.wickedcampers.com.au/images/assets/fj-4wd.jpg"); }
+  background-image: url("../img/4wd2.png"); }
 
 .awd-prem-img-2 {
-  background-image: url("https://www.wickedcampers.com.au/images/featuregallery/4wd-family-tourer/4wd-fam-tourer.jpg"); }
+  background-image: url("../img/4wd5.png"); }
 
 .car-dc {
-  background-image: url("https://www.wickedcampers.com.au/images/small-thumbs/car.jpg"); }
+  background-image: url("../img/dc.png"); }
 
 .car-bus {
-  background-image: url("https://www.wickedcampers.com.au/images/featuregallery/12-tourbus/12seater.jpg"); }
+  background-image: url("../img/bus.png"); }
 
 .car-mini-2 {
-  background-image: url("https://www.wickedcampers.com.au/images/small-thumbs/mini-2.jpg"); }
+  background-image: url("../img/mini2.png"); }
 
 .car-mini-3 {
-  background-image: url("https://www.wickedcampers.com.au/images/small-thumbs/mini-3.jpg"); }
+  background-image: url("../img/mini3.png"); }
 
 .car-mini-5 {
-  background-image: url("https://www.wickedcampers.com.au/images/featuregallery/mini-5/mini-van.jpg"); }
+  background-image: url("../img/mini5.png"); }
 
 .offensive {
   padding-top: 10px; }
@@ -235,4 +235,17 @@ body {
 
 .price span {
   font-size: .75em; }
+
+.capacity {
+  color: #8b8b8b;
+  font-size: 2em; }
+  .capacity span {
+    font-family: 'helvetica';
+    font-weight: bold; }
+  .capacity .fa-male {
+    margin-right: -4px !important;
+    color: #8b8b8b; }
+  .capacity .fa-times {
+    margin-left: 7px;
+    color: #8b8b8b; }
 /*# sourceMappingURL=styles.css.map */
