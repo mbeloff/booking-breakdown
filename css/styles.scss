@@ -19,24 +19,6 @@ body {
   height: 40%;
 }
 
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: .9rem;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  html {
-    font-size: .95rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1rem;
-  }
-}
-
 .navbar {
   padding: 0 0 0 0;
   font-weight: 600;
@@ -125,7 +107,7 @@ body {
 
 .vehicle-container {
   font-family: 'roboto';
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 20px 20px;
 
   & i {
     margin-right: .5em;
@@ -134,7 +116,7 @@ body {
 }
 
 .vehicle-img {
-  height: 130px;
+  height: 100px;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -302,4 +284,8 @@ body {
 
 .show {
   display: block !important;
+}
+
+.price span {
+  font-size: .75em;
 }
