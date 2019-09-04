@@ -6,14 +6,17 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
+  font-size: .8rem;
 }
 
 body {
   background-color: #c20606;
+  height: 100%;
 }
 
-html {
-  font-size: .8rem;
+#spacer {
+  height: 40%;
 }
 
 @include media-breakpoint-up(sm) {
@@ -39,12 +42,12 @@ html {
   font-weight: 600;
 }
 
-.anchor::before { 
-  display: block; 
-  content: " "; 
-  margin-top: -72px; 
-  height: 72px; 
-  visibility: hidden; 
+.anchor::before {
+  display: block;
+  content: " ";
+  margin-top: -72px;
+  height: 72px;
+  visibility: hidden;
   pointer-events: none;
 }
 
@@ -73,8 +76,8 @@ html {
   font-size: 1.5em;
 }
 
-.navbar .nav-link, 
-.navbar .navbar-brand, 
+.navbar .nav-link,
+.navbar .navbar-brand,
 .navbar .fab {
   color: #ffffff;
 }
@@ -83,38 +86,220 @@ html {
   background-color: #c20606;
 }
 
-.vehicle {
+.category {
   font-family: Roboto
 }
 
-.vehicle ul i {
+.category ul i {
   color: red;
   font-size: 1.5em;
   margin-right: .5em;
 }
 
-.vehicle ul li {
+.category ul li {
   margin-bottom: .4em;
   font-weight: 400;
   font-size: 1.2em
 }
 
-.vehicle-img {
+.category-img {
   min-height: 200px;
   max-height: 300px;
   background-size: cover;
+  background-position: center;
 }
 
-.vehicle-img-1 { 
-  background-image: url('../img/painted.png');  
+.category-img-1 {
+  background-image: url('https://instagram.fbne6-1.fna.fbcdn.net/vp/5f34273ac66935562b6741ac54d0b52b/5E116902/t51.2885-15/sh0.08/e35/s640x640/30830926_221508718430865_2571012597851619328_n.jpg?_nc_ht=instagram.fbne6-1.fna.fbcdn.net&_nc_cat=109');
+  background-position: 50% 75%;
 }
 
-.vehicle-img-2 {
-  background-image:url('../img/pc2.png');
+.category-img-2 {
+  background-image: url('../img/7.jpg');
+  background-position-y: 50%;
 }
 
-.vehicle-img-3 {
-  background-image: url('../img/plain.png');
+.category-img-3 {
+  background-image: url('https://www.wickedcampers.com.au/images/featuregallery/mini3/5.jpg');
 }
 
+.vehicle-container {
+  font-family: 'roboto';
+  padding: 20px 20px 0 20px;
 
+  & i {
+    margin-right: .5em;
+    color: red;
+  }
+}
+
+.vehicle-img {
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.van-off-img-1 {
+  background-image: url('https://www.wickedcampers.com.au/images/small-thumbs/iconic.jpg')
+}
+
+.van-off-img-2 {
+  background-image: url('https://www.wickedcampers.com.au/images/small-thumbs/hi-top2.jpg')
+}
+
+.van-non-img-1 {
+  background-image: url('https://www.wickedcampers.com.au/images/small-thumbs/pr-2.jpg')
+}
+
+.van-non-img-2 {
+  background-image: url('https://www.wickedcampers.com.au/images/small-thumbs/zepp-3.jpg')
+}
+
+.van-plain-img-1 {
+  background-image: url('https://www.wickedcampers.com.au/images/small-thumbs/pr-2.jpg')
+}
+
+.awd-budg-img-1 {
+  background-image: url('https://www.wickedcampers.com.au/images/small-thumbs/4wd-2.jpg')
+}
+.awd-budg-img-2 {
+  background-image: url('https://www.wickedcampers.com.au/images/small-thumbs/awd-5.jpg')
+}
+
+.awd-prem-img-1 {
+  background-image: url('https://www.wickedcampers.com.au/images/assets/fj-4wd.jpg')
+}
+
+.awd-prem-img-2 {
+  background-image: url('https://www.wickedcampers.com.au/images/featuregallery/4wd-family-tourer/4wd-fam-tourer.jpg')
+}
+
+.car-dc {
+  background-image: url('https://www.wickedcampers.com.au/images/small-thumbs/car.jpg')
+}
+.car-bus {
+  background-image: url('https://www.wickedcampers.com.au/images/featuregallery/12-tourbus/12seater.jpg')
+}
+.car-mini-2 {
+  background-image: url('https://www.wickedcampers.com.au/images/small-thumbs/mini-2.jpg')
+}
+.car-mini-3 {
+  background-image: url('https://www.wickedcampers.com.au/images/small-thumbs/mini-3.jpg')
+}
+.car-mini-5 {
+  background-image: url('https://www.wickedcampers.com.au/images/featuregallery/mini-5/mini-van.jpg')
+}
+
+.offensive {
+  padding-top: 10px;
+
+  &::before {
+    content: 'Offensive';
+    background: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    font-size: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+.nonoffensive {
+  padding-top: 10px;
+
+  &::before {
+    content: 'Non-offensive';
+    background: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    font-size: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+.plain {
+  padding-top: 10px;
+
+  &::before {
+    content: 'Plain';
+    background: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    font-size: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+.budget {
+  padding-top: 10px;
+  &::before {
+    content: 'Budget';
+    background: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    font-size: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+.premium {
+  padding-top: 10px;
+  &::before {
+    content: 'Premium';
+    background: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    font-size: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+.camper {
+  padding-top: 10px;
+  &::before {
+    content: 'Mini-Campers';
+    background: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    font-size: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+.noncamper {
+  padding-top: 10px;
+  &::before {
+    content: 'Cars';
+    background: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    font-size: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+.btn-active {
+  background-color: darkred !important;
+}
+
+.show {
+  display: block !important;
+}
