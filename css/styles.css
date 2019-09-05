@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 html {
   scroll-behavior: smooth;
   height: 100%;
@@ -29,21 +28,6 @@ body {
 .navbar .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(185, 161, 126)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
-.hero-section {
-  margin-top: -56px;
-  height: 80vh;
-  min-height: 700px;
-  background-color: darkgray;
-  background-image: linear-gradient(-45deg, #d61b1b, #ff9956);
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%; }
-
-.navbar-brand {
-  font-family: 'Quicksand';
-  font-size: 1.5em; }
-
 .navbar .nav-link,
 .navbar .navbar-brand,
 .navbar .fab {
@@ -54,16 +38,6 @@ body {
 
 .category {
   font-family: Roboto; }
-
-.category ul i {
-  color: red;
-  font-size: 1.5em;
-  margin-right: .5em; }
-
-.category ul li {
-  margin-bottom: .4em;
-  font-weight: 400;
-  font-size: 1.2em; }
 
 .category-img {
   min-height: 200px;
@@ -80,14 +54,12 @@ body {
   background-position-y: 50%; }
 
 .category-img-3 {
-  background-image: url("https://www.wickedcampers.com.au/images/featuregallery/mini3/5.jpg"); }
+  background-image: url("https://www.wickedcampers.com.au/bookings/images/galleries/damn-cheap-classic-cars/0.jpg"); }
 
 .vehicle-container {
-  font-family: 'roboto';
-  padding: 20px 20px 20px 20px; }
+  padding: 5px; }
   .vehicle-container i {
-    margin-right: .5em;
-    color: red; }
+    margin-right: .5em; }
 
 .vehicle-img {
   height: 100px;
@@ -237,15 +209,27 @@ body {
   font-size: .75em; }
 
 .capacity {
-  color: #8b8b8b;
-  font-size: 2em; }
+  color: #ffb700;
+  font-size: 2.5em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #2e2e2e; }
   .capacity span {
     font-family: 'helvetica';
-    font-weight: bold; }
+    font-weight: bold;
+    margin-right: -22px; }
   .capacity .fa-male {
-    margin-right: -4px !important;
-    color: #8b8b8b; }
+    margin-right: -4px !important; }
   .capacity .fa-times {
-    margin-left: 7px;
-    color: #8b8b8b; }
+    margin-left: 7px; }
+
+.vehicle-name {
+  margin-bottom: 0;
+  padding: 5px;
+  font-weight: 400 !important; }
+
+.fa-check {
+  color: red; }
+
+.fa-images, .fa-tv-retro {
+  color: #615b5b; }
 /*# sourceMappingURL=styles.css.map */
